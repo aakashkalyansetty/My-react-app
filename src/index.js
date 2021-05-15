@@ -19,30 +19,30 @@ import ForteIndex from "./Components/Validation/Forte/ForteIndex/ForteIndex";
 import ForteForm from "./Components/Validation/Forte/ForteForm/ForteForm";
 
 
-const SecretRoute = ({ component: Component, ...rest }) => {
+/*const SecretRoute = ({ component: Component, ...rest }) => {
   return <Route {...rest} render={(props) => (
       localStorage.getItem('token')
           ? <Component {...props} />
           : window.location.replace('/Login')
   )} />
-};   
+};  */ 
 
 ReactDOM.render(
   <BrowserRouter>
     <Route path="/Login" exact component={Login} />
-    <SecretRoute path="/" exact component={App} />
-    <SecretRoute path="/UserForm/:id" component={UserForm} />
-    <SecretRoute path="/UserIndex" component={UserIndex} />
-    <SecretRoute path="/UserDetail/:id" component={UserDetail} />
-    <SecretRoute path="/Dashboard" exact component={Dashboard} />
-    <SecretRoute path="/ProcessorIndex" component={ProcessorIndex} />
-    <SecretRoute path="/ProcessorForm/:id" component={ProcessorForm} />
-    <SecretRoute path="/BlacklistIndex" component={BlacklistIndex} />
-    <SecretRoute path="/BlacklistForm" component={BlacklistForm} />
-    <SecretRoute path="/DuplicateCheckIndex" component={DuplicateCheckIndex} />
-    <SecretRoute path="/DuplicateCheckForm" component={DuplicateCheckForm} />
-    <SecretRoute path="/ForteIndex" component={ForteIndex} />
-    <SecretRoute path="/ForteForm" component={ForteForm} />
+    <Route path="/" exact component={App} />
+    <Route path="/UserForm/:id" component={UserForm} />
+    <Route path="/UserIndex" component={UserIndex} />
+    <Route path="/UserDetail/:id" component={UserDetail} />
+    <Route path="/Dashboard" exact component={Dashboard} />
+    <Route path="/ProcessorIndex" component={ProcessorIndex} />
+    <Route path="/ProcessorForm/:id" component={ProcessorForm} />
+    <Route path="/BlacklistIndex" component={BlacklistIndex} />
+    <Route path="/BlacklistForm" component={BlacklistForm} />
+    <Route path="/DuplicateCheckIndex" component={DuplicateCheckIndex} />
+    <Route path="/DuplicateCheckForm" component={DuplicateCheckForm} />
+    <Route path="/ForteIndex" component={ForteIndex} />
+    <Route path="/ForteForm" component={ForteForm} />
  </BrowserRouter>,
 
   document.getElementById("root")

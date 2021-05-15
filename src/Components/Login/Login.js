@@ -74,6 +74,10 @@ const Login = () => {
     setPassword(event.target.value);
   };
 
+  const goDashboard = () => {
+    history.push("/Dashboard");
+  }
+
   return (
     <div class="login-body">
       <Box
@@ -86,7 +90,7 @@ const Login = () => {
         <div class="login">
           <img src={logo} className="logo" />
           <br />
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={goDashboard}>
             <TextField
               required={true}
               id="login-input"
