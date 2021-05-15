@@ -1,0 +1,23 @@
+.user-table{
+    width:650px;
+    margin-left:2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+.banking-table{
+    width:650px;
+    margin-bottom: 2%;
+    margin-right:2%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    border-radius: 6px;
+    padding: 20px;
+    padding-top:15px;
+}
+
+.MuiTableCell-root{
+    border-bottom:none !important;
+}

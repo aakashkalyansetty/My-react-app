@@ -1,0 +1,1 @@
+export const URL='http://localhost/ccpn_yii2_user/web/api';

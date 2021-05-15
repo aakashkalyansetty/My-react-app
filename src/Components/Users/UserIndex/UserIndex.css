@@ -1,0 +1,25 @@
+.users{
+    text-align:left;
+}
+
+.add-user{
+    float: left;
+    margin-top: 10px;
+}
+
+.user_index{
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+body{
+    overflow: scroll;
+}
+
+.search-bar{
+    width: 140px;
+}
+
+.MuiTableHead-root{
+    background-color: blue !important;
+}

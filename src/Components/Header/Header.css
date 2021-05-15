@@ -1,0 +1,35 @@
+.margin-class{
+    margin-right: 3.5%;
+}
+
+.nav-logo{
+    width: 300px;
+    height: 53px;
+    display: flex;
+    justify-content: start;
+    margin: 10px;
+}
+
+.user-logo{
+    display:flex;
+    width: 90%;
+    height: 90%;
+}
+
+.navbar{
+    background-color: #0069ab;
+    color:white;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+} 
+
+.welcome{
+    margin-right: 10px;
+    text-align: left;
+}
+
+#logout{
+    float: right !important;
+}

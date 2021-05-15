@@ -1,0 +1,21 @@
+.users{
+    text-align:left;
+}
+
+.tableindex{
+    margin-right:2%;
+    margin-left:2%;
+}
+
+.add-user{
+    float: left;
+    margin-top: 10px;
+}
+
+body{
+    overflow: scroll;
+}
+
+.search-bar{
+    width: 140px;
+}
